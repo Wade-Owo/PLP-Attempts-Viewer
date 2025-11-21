@@ -19,6 +19,20 @@ A Next.js + Supabase web app for viewing Personalized Learning Platform (PLP) mo
 
 ---
 
+## Sample Data
+
+SQL used to insert test rows:
+
+INSERT INTO plp_learning_attempts (user_email, module_id)
+VALUES
+('alice1@oregonstate.edu', 101),
+('bob2@oregonstate.edu', 102),
+('alice1@oregonstate.edu', 102),
+('charlie3@oregonstate.edu', 101),
+('bob2@oregonstate.edu', 103);
+
+---
+
 ## What I Learned
 
 - **PostgreSQL syntax is different from normal SQL.**
@@ -33,4 +47,4 @@ A Next.js + Supabase web app for viewing Personalized Learning Platform (PLP) mo
 - **No major surprises.**
   - The flow of the whole project, from database setup to UI, was easier than expected because of AI making the process straightforward by not requiring extensive knowledge of PostgreSQL or knowing how to connect to Supabase directly from React components and call functions in supabase and display them in Next.js.
 
----# PLP-Attempts-Viewer
+
