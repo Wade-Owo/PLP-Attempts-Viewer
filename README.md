@@ -11,11 +11,13 @@ A Next.js + Supabase web app for viewing Personalized Learning Platform (PLP) mo
     - Made a `plp_learning_attempts` table and the `get_plp_attempts` function (SQL RPC).
     - Added sample data for testing by using insert statements in the Supabase SQL editor.
     - Tested the function by querying for specific emails to confirm results.
+    - Added a function to add new attempts to the table.
 
 2. **Frontend App**
     - Read Supabase documentation to learn best practices how to generate a Next.js app with the `with-supabase` template.
     - Used AMP in VS Code to make the UI, connect to Supabase, and call the RPC function.
     - Also used AMP to create a form to input email, fetch attempts, and display results in a table.
+    - Also used AMP to create a form to add new attempts.
 
 ---
 
